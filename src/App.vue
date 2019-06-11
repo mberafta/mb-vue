@@ -12,13 +12,11 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
-import MbTest from "./components/MbTest.vue";
 
 export default {
   name: "app",
   components: {
-    HelloWorld,
-    MbTest
+    HelloWorld
   }
 };
 </script>
