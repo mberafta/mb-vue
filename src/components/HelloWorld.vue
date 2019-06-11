@@ -23,7 +23,8 @@ export default {
         { name: "Item 1", id: 1 },
         { name: "Item 2", id: 2 },
         { name: "Item 3", id: 3 },
-        { name:"Item 4", id:4 }
+        { name: "Item 4", id: 4 },
+        { name: "Item 5", id: 5 }
       ],
       testBoolean: true,
       testModel: ""
@@ -33,8 +34,8 @@ export default {
     reverse: function(arr) {
       arr = arr.reverse();
     },
-    remove:function(index){
-      this.users.splice(index,1);
+    remove: function(index) {
+      this.users.splice(index, 1);
     }
   }
 };
